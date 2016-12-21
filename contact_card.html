@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Card</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function()
+			{
+				$("#form2").submit(function()
+				{
+					var newFirst = $("#firstName").val();
+					var newLast = $("#lastName").val();
+					var newInfo = $("#info").val();
+
+					$("#right_content").append("<div class='box'><p>" + newFirst + "<br>" + newLast + "<br>" + newInfo + "</p></div>");
+
+					$("#firstName").val("");
+					$("#lastName").val("");
+					$("#info").val("Enter description");
+
+					return false;
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="left_content">
+				<form id="form2" action="" method="">
+					First name: <input id="firstName" type="text" name="first_name" value=""><br>
+					Last name:  <input id="lastName" type="text" name="last_name" value=""><br>
+					Description: <input id="info" type="text" name="description_box" value="Enter description"><br>
+					<input id="button" type="submit" name="" value="Add User"><br>
+				</form>
+			</div><!-- 
+
+
+		 --><div id="right_content">
+
+			</div>
+			
+		</div>
+
+	</body>
+</html>

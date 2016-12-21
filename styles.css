@@ -1,0 +1,71 @@
+*{
+	margin: 0 auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+#wrapper{
+	width: 700px;
+	height: 700px;
+	background-color: 
+}
+
+#left_content{
+	width: 340px;
+	height: 100%;
+	
+}
+
+#left_content, #right_content{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#form2{
+	width: 300px;
+	height: 600px;
+	margin-top: 20px;
+
+}
+
+#lastName{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+}
+
+#info{
+	
+	padding-bottom: 70px;
+	padding-right: 75px;
+	margin-top: 10px;
+}
+
+#button{
+	margin-top: 40px;
+	background-color: #152D99;
+	color: white;
+	font-size: 10px;
+	padding: 5px 10px;
+}
+
+#right_content{
+	width: 340px;
+	height: 100%;
+	margin-top: 10px;
+}
+
+.box{
+	width: 150px;
+	height: 150px;
+	background-color: #152D99;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.box p{
+	padding-top: 40px;
+	color: white;
+	font-size: 10px;
+}
